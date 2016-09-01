@@ -1,0 +1,1377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Documentation | Site Builder Lite</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="keywords" content="Site Builder Documentation, Site Builder Online Documentation, Site Builder Manual">
+    <meta name="description" content="Learn how to use and configure Site Builder!">
+
+    <!-- Loading Bootstrap -->
+    <link href="css/vendor/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Loading Flat UI Pro -->
+    <link href="css/flatui.css" rel="stylesheet">
+    
+    <!-- Custom style -->
+    <link href="css/style.css" rel="stylesheet">
+    
+    <!-- unicons -->
+    <link href="fonts/unicons/unicons.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="img/favicon.ico">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="js/vendor/html5shiv.js"></script>
+      <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body data-spy="scroll" style="position: relative" data-target="#theNav">
+    
+    <div class="container">
+    
+    	<div class="row">
+    	
+    		<div class="col-md-12">
+    		
+    			<h2 class="text-center"><span class="logo"><b class="text-primary">SITE</b>BUILDER <i>Lite</i></span>&nbsp;&nbsp; Documentation</h2>
+				
+				<p class="small text-center">v.1.4.0</p>
+    		
+    		</div><!-- /.col -->
+    	
+    	</div><!-- /.row -->
+    
+    	<div class="row">
+    	
+    		<div class="col-md-3">
+    			
+    			<div id="theNav">
+    			<ul class="nav nav-list nav-list-bricks" id="nav" data-spy="affix" data-offset-top="160">
+    				<li class="nav-header">1 User Manual</li>
+	    			<li class="active">
+		    			<a href="#blocks">
+			    			1.1 Block approach
+			    			<span class="fui-arrow-right pull-right"></span>
+			    		</a>
+			    	</li>
+			    	<li>
+				    	<a href="#dragdrop">
+					    	1.2 Drag & drop
+					    	<span class="fui-arrow-right pull-right"></span>
+					    </a>
+					</li>
+					<li>
+						<a href="#editingtext">
+							1.3 Editing text
+							<span class="fui-arrow-right pull-right"></span>
+						</a>
+					</li>
+					<li>
+						<a href="#editingimages">
+							1.4 Editing images / image library
+							<span class="fui-arrow-right pull-right"></span>
+						</a>
+					</li>
+					<li>
+						<a href="#editinglinks">
+							1.5 Editing links
+							<span class="fui-arrow-right pull-right"></span>
+						</a>
+					</li>
+					<li>
+						<a href="#editingstyles">
+							1.6 Editing styles
+							<span class="fui-arrow-right pull-right"></span>
+						</a>
+					</li>
+					<li>
+						<a href="#editingvideos">
+							1.7 Editing videos
+							<span class="fui-arrow-right pull-right"></span>
+						</a>
+					</li>
+					<li>
+						<a href="#editingtables">
+							1.8 Editing tables
+							<span class="fui-arrow-right pull-right"></span>
+						</a>
+					</li>
+					<li>
+						<a href="#cloningitems">
+							1.9 Cloning items
+							<span class="fui-arrow-right pull-right"></span>
+						</a>
+					</li>
+					<li>
+						<a href="#editinghtml">
+							1.10 Editing HTML
+							<span class="fui-arrow-right pull-right"></span>
+						</a>
+					</li>
+					<li>
+						<a href="#templates">
+							1.11 Using templates
+							<span class="fui-arrow-right pull-right"></span>
+						</a>
+					</li>
+					<li>
+						<a href="#pagesettings">
+							1.12 Page settings
+							<span class="fui-arrow-right pull-right"></span>
+						</a>
+					</li>
+					<li>
+						<a href="#sitesettings">
+							1.13 Site settings
+							<span class="fui-arrow-right pull-right"></span>
+						</a>
+					</li>
+					<li>
+						<a href="#exporting">
+							1.14 Exporting your site
+							<span class="fui-arrow-right pull-right"></span>
+						</a>
+					</li>
+					<li>
+						<a href="#publishing">
+							1.15 Publishing your site
+							<span class="fui-arrow-right pull-right"></span>
+						</a>
+					</li>
+					<li>
+						<a href="#revisions">
+							1.16 Page revisions
+							<span class="fui-arrow-right pull-right"></span>
+						</a>
+					</li>
+					<li>
+						<a href="#customcss">
+							1.17 Custom CSS
+							<span class="fui-arrow-right pull-right"></span>
+						</a>
+					</li>
+					<li>
+						<a href="#adminusers">
+							1.18 <b>Admin</b> users
+							<span class="fui-arrow-right pull-right"></span>
+						</a>
+					</li>
+					<li>
+						<a href="#adminsettings">
+							1.19 <b>Admin</b> settings
+							<span class="fui-arrow-right pull-right"></span>
+						</a>
+					</li>
+					<li>
+						<a href="#admintemplates">
+							1.20 <b>Admin</b> templates
+							<span class="fui-arrow-right pull-right"></span>
+						</a>
+					</li>
+					<li class="nav-header">2 Tech Manual</li>
+					<li>
+		    			<a href="#requirements">
+			    			2.1 Requirements
+			    			<span class="fui-arrow-right pull-right"></span>
+			    		</a>
+			    	</li>
+					<li>
+		    			<a href="#installation">
+			    			2.2 Installation
+			    			<span class="fui-arrow-right pull-right"></span>
+			    		</a>
+			    	</li>
+			    	<li>
+		    			<a href="#upgrading">
+			    			2.2.1 Upgrading
+			    			<span class="fui-arrow-right pull-right"></span>
+			    		</a>
+			    	</li>
+			    	<li>
+		    			<a href="#prettyurls">
+			    			2.3 Pretty URL's
+			    			<span class="fui-arrow-right pull-right"></span>
+			    		</a>
+			    	</li>
+			    	<li>
+		    			<a href="#settingspage">
+			    			2.4 Settings page
+			    			<span class="fui-arrow-right pull-right"></span>
+			    		</a>
+			    	</li>
+			    	<li>
+		    			<a href="#translation">
+			    			2.5 Translation
+			    			<span class="fui-arrow-right pull-right"></span>
+			    		</a>
+			    	</li>
+			    	<li class="nav-header">3 Custom Blocks</li>
+					<li>
+		    			<a href="#ce_intro">
+			    			3.1 Introduction
+			    			<span class="fui-arrow-right pull-right"></span>
+			    		</a>
+			    	</li>
+			    	<li>
+		    			<a href="#ce_blockfiles">
+			    			3.2 Block Files
+			    			<span class="fui-arrow-right pull-right"></span>
+			    		</a>
+			    	</li>
+			    	<li>
+		    			<a href="#ce_elementsjson">
+			    			3.3 elements.json
+			    			<span class="fui-arrow-right pull-right"></span>
+			    		</a>
+			    	</li>
+			    	<li>
+		    			<a href="#ce_skeletonhtml">
+			    			3.4 skeleton.html
+			    			<span class="fui-arrow-right pull-right"></span>
+			    		</a>
+			    	</li>
+			    	<li>
+		    			<a href="#ce_editableitems">
+			    			3.5 Editable items
+			    			<span class="fui-arrow-right pull-right"></span>
+			    		</a>
+			    	</li>
+			    	<li>
+		    			<a href="#ce_exportassets">
+			    			3.6 Export assets
+			    			<span class="fui-arrow-right pull-right"></span>
+			    		</a>
+			    	</li>
+					<li class="nav-header">4 Sent API</li>
+					<li>
+		    			<a href="#sentapi">
+			    			4.1 Sent API /  dealing with forms on your sites
+			    			<span class="fui-arrow-right pull-right"></span>
+			    		</a>
+			    	</li>
+					<li>
+		    			<a href="#">
+			    			&nbsp;
+			    		</a>
+			    	</li>
+					<li>
+		    			<a href="#">
+			    			&nbsp;
+			    		</a>
+			    	</li>
+				</ul>
+    			</div><!-- /#theNav -->
+    		
+    		</div><!-- /.col -->
+    		
+    		<div class="col-md-8 col-md-offset-1">
+    		
+    			<div class="section" id="blocks">
+    			
+    				<h3>1.1 Block Approach</h3>
+    				
+    				<p>
+    					<span class="logo"><b class="text-primary">SITE</b>BUILDER <i>Lite</i></span>&nbsp;&nbsp; takes a block oriented approach to building web pages and web sites. What this is means is that <span class="logo">&nbsp;<b class="text-primary">SITE</b>BUILDER <i>Lite</i></span>&nbsp;&nbsp; provides the user with a selection of pre-designed blocks, such as headers, content sections, forms, footers, etc. which are combined onto a canvas to create fully functional web page.
+    				</p>
+    				
+    				<p>
+    					To have a look at blocks bundled with <span class="logo">&nbsp;<b class="text-primary">SITE</b>BUILDER <i>Lite</i></span>&nbsp;&nbsp;, please have a look here: <a href="http://trybuilder.com/lite/#block" target="_blank">http://trybuilder.com/lite/#blocks</a>.
+    				</p>
+    			
+    			</div><!-- /#blocks -->
+    			
+    			<div class="section" id="dragdrop">
+    			
+    				<h3>1.2 Drag & Drop</h3>
+    				
+    				<p>
+    					<span class="logo"><b class="text-primary">SITE</b>BUILDER <i>Lite</i></span>&nbsp;&nbsp; uses an easy to use and intuitive drag and drop interface. Use the left sidebar to select your blocks and drag them onto the canvas. Once dropped onto the canvas, blocks can easily be re-ordered using the same drag and drop functionality.
+    				</p>
+    				
+    				<img src="img/pic1.png" alt="SiteBuilder picture">
+    			
+    			</div><!-- /#dragdrop -->
+    			
+    			<div class="section" id="editingtext">
+    			
+    				<h3>1.3 Editing Text</h3>
+    				
+    				<p>
+    					<span class="logo"><b class="text-primary">SITE</b>BUILDER <i>Lite</i></span>&nbsp;&nbsp; allows users to edit all written content within certain elements (as defined by the script's administrator). To edit written content, simply switch to "Content Mode" and hover over the element you'd like to edit. If the element's text is editable, a red dashed outline will appear around the element. After clicking the element, a modal popup window will appear in which you can edit the content.
+    				</p>
+    				
+    				<img src="img/pic2.png" alt="SiteBuilder picture">
+    				
+    				<img src="img/pic3.png" alt="SiteBuilder picture">
+    				    			
+    			</div><!-- /#editingtext -->
+    			
+    			<div class="section" id="editingimages">
+    			
+    				<h3>1.4 Editing images and using your image library</h3>
+    				
+    				<p>
+    					<span class="logo"><b class="text-primary">SITE</b>BUILDER <i>Lite</i></span>&nbsp;&nbsp; allows users to edit images within blocks as well (please note that the application administrator can define which images are allowed to be edited, so it could be that not all images are ediatble).
+    				</p>
+    				
+    				<p>
+    					<span class="logo"><b class="text-primary">SITE</b>BUILDER <i>Lite</i></span>&nbsp;&nbsp; makes a distinction between "<b>user images</b>" and "<b>other images</b>". User images are uploaded by users themselves and are stored in their image libraries. Other images have been uploaded the application administrator and can not be managed/removed by regular application users. When accessing your image library from the top menu, you will see two tabs, one for your own images and one for the other images.
+    				</p>
+    				
+    				<img src="img/pic4.png" alt="SiteBuilder picture">
+    				
+    				<p>
+    					When editing images through the drag and drop builder, make sure you switch to "Detail Mode" first as shown in the image below:
+    				</p>
+    			
+    				<img src="img/pic5.png" alt="SiteBuilder picture">
+    				
+    				<p>
+    					You can now choose the image you want to edit by clicking on it. Once clicked, the edit sidebar will slide out from the left of the screen. In the sidebar, click the tab labeled "Image" which will bring up the Image editing tab.
+    				</p>
+    				
+    				<img src="img/pic6.png" alt="SiteBuilder picture">
+    				
+    				<p>
+    					You can now click the button labeled "Use Image Library" which will launch a modal popup displayed your entire image library. To inset an image, locate the desired image and click the "Insert Image" button. Your newly inserted image will now appear on the canvas.
+    				</p>
+    				
+    				<img src="img/pic7.png" alt="SiteBuilder picture">
+    				    			
+    			</div><!-- /#editingimages -->
+    			
+    			<div class="section" id="editinglinks">
+    			
+    				<h3>1.5 Editing Links</h3>
+    				
+    				<p>
+    					<span class="logo"><b class="text-primary">SITE</b>BUILDER <i>Lite</i></span>&nbsp;&nbsp; allows users to edit links by either providing a URL or by choosing another page to link to. Starting by switching to "Detail Mode" as shown below:
+    				</p>
+    				
+    				<img src="img/pic5.png" alt="SiteBuilder picture">
+    				
+    				<p>
+    					Next, click the link you want to edit. Once clicked, the left sidebar will appear. Within the left sidebar, click the second tab labeled "Link".
+    				</p>
+    				
+    				<img src="img/pic8.png" alt="SiteBuilder picture">
+    				
+    				<p>
+    					Now you can either enter a URL or choose the page you want this link to connect with.
+    				</p>
+    				    			
+    			</div><!-- /#editinglinks -->
+    			
+    			<div class="section" id="editingstyles">
+    			
+    				<h3>1.6 Editing Styles</h3>
+    				
+    				<p>
+    					<span class="logo"><b class="text-primary">SITE</b>BUILDER <i>Lite</i></span>&nbsp;&nbsp; allows users to edit certain styling properties for elements defined by the application's administrator. Please note that the administrator defines which properties for which elements are editable, so do not expect to able to change every property for every element (to learn more about editable elements, please have a look at the <a href="#ce_editableitems">Custom Elements section</a>).
+    				</p>
+    				
+    				<p>
+    					To edit styles for an element, again we'll need to switch to "Details Mode" as shown below:
+    				</p>
+    				
+    				<img src="img/pic5.png" alt="SiteBuilder picture">
+    				
+    				<p>
+    					Next, you can click the element which you'd like to edit. If an item has editable properties, a red dashed outline will appear around an element when moving over it with the mouse cursor.
+    				</p>
+    				
+    				<img src="img/pic9.png" alt="SiteBuilder picture">
+    				
+    				<p>
+    					Once the red dashed outline appears, you can click the element and the left sidebar will appear. Within this sidebar you'll automatically see all the available properties for the selected item. After making any changes, you'll need to click the green button labeled "Apply Changes" to see the changes take effect.
+    				</p>
+    				
+    				<p>
+    					If you don't like the changes after seeing them in the canvas, you can click the orange button labeled "Reset" to restore the styling of the elements to it's original settings.
+    				</p>
+    				    			
+    			</div><!-- /#editingstyles -->
+    			
+    			<div class="section" id="editingvideos">
+    			
+    				<h3>1.7 Editing Videos</h3>
+    				
+    				<p>
+    					<span class="logo"><b class="text-primary">SITE</b>BUILDER <i>Lite</i></span>&nbsp;&nbsp; allows users to edit Youtube and Vimeo videos as well. To edit a video, switch to "Details Mode" and click the video you'd want to edit. This will open the left sidebar panel where you can enter a Youtube video ID or a Vimeo video ID. You can alter between these as you please, the application will detect which platform you're using and update the video accordingly.
+    				</p>
+    				    				    			
+    			</div><!-- /#editingvideos -->
+    			
+    			<div class="section" id="editingtables">
+    			
+    				<h3>1.8 Editing Tables</h3>
+    				
+    				<p>
+    					HTML tables can edited when in "Content Mode".
+    				</p>
+    				
+    				<img src="img/pic2.png" alt="SiteBuilder picture">
+    				
+    				<p>
+    					Once in "Content Mode", locate the table you want to edit, if the table is editable, a red dashed line will appear around it when hover the mouse cursor over it. After clicking it, a text editor will appear in a modal popup allowing to edit the table and it's content.
+    				</p>
+    				
+    				<img src="img/pic29.png" alt="SiteBuilder picture">
+    				
+    				<p>
+    					The third button from the right side of the editor's toolbar will reveal the table option dropdown. In this dropdown menu, you'll find all the options needed to edit the table's layout, such as adding, remove columns, rows, heads, etc.
+    				</p>
+    				    				    			
+    			</div><!-- /#editingtables -->
+    			
+    			<div class="section" id="cloningitems">
+    			
+    				<h3>1.9 Cloning Elements</h3>
+    				
+    				<p>
+    					<span class="logo"><b class="text-primary">SITE</b>BUILDER <i>Lite</i></span>&nbsp;&nbsp; allows users to clone elements on the canvas. This comes in handy when working on a navigation for example, when you need an additional entry, you can clone the last item of the navigation.
+    				</p>
+    				
+    				<p>
+    					To clone items, you'll need to switch to "Details Mode" first. Next, you can click the element you want to clone (if it's clonable, a red dashed outline will appear when moving the mouse cursor over the element). Once clicked, the left sidebar will appear. You can now clone the element by clicking the dark blue button labeled "Clone".
+    				</p>
+    				
+    				<img src="img/pic10.png" alt="SiteBuilder picture">
+    				
+    				<p>
+    					<b>Please note that a cloned element will always get inserted right after the original element!</b>
+    				</p>
+    				    			
+    			</div><!-- /#cloningitems -->
+    			
+    			<div class="section" id="editinghtml">
+    			
+    				<h3>1.10 Editing HTML</h3>
+    				
+    				<p>
+    					<span class="logo"><b class="text-primary">SITE</b>BUILDER <i>Lite</i></span>&nbsp;&nbsp; allows users to edit the source HTML of each block on the canvas. To access the HTML editor, first make sure you're in "Block Mode". Next, hover over the block you want to edit, and click the dark blue button labeled "source".
+    				</p>
+    				
+    				<img src="img/pic30.png" alt="SiteBuilder picture">
+    				
+    				<p>
+    					This will hide the block itself and bring up the HTML source editor. Click "cancel" to return without applying your changes to click "Save" to close and save your changes.
+    				</p>
+    				
+    				<img src="img/pic31.png" alt="SiteBuilder picture">
+					
+					<p>
+						As of <b>verion 1.4.0</b>, the HTML editor comes with an HTML validator. When working on a blocks underlying HTML, the validator will automatically list validation issues below the editor (after a small time delay, which is configured in the /js/builder/config.js file).
+					</p>
+    				    			
+    			</div><!-- /#editinghtml -->
+				
+    			<div class="section" id="templates">
+    			
+    				<h3>1.11 Using templates</h3>
+    				
+    				<p>
+    					As of v1.3, <span class="logo"><b class="text-primary">SITE</b>BUILDER <i>Lite</i></span>&nbsp;&nbsp; allows admin users to create page templates which are accessible for all users. If there are any templates created, they will appear in the left navigation under the heading "<b>Templates</b>". To use a template, simply drag and drop a template onto the canvas. Please note that using a template will remove all other blocks you currently have on your canvas.
+    				</p>
+    				
+    				<img src="img/pic33.png" alt="SiteBuilder picture">
+    				
+    				<p>
+    					Once dropped onto the canvas, all the blocks can be used as any other regular block
+    				</p>
+    				    				    			
+    			</div><!-- /#templates -->
+    			
+    			<div class="section" id="pagesettings">
+    			
+    				<h3>1.12 Page Settings</h3>
+    				
+    				<p>
+    					<span class="logo"><b class="text-primary">SITE</b>BUILDER <i>Lite</i></span>&nbsp;&nbsp; allows users configure certain settings for each page within a given site. To bring up the page settings window, click the grey dropdown button labeled "Settings" towards the right edge of the screen:
+    				</p>
+    				
+    				<img src="img/pic11.png" alt="SiteBuilder picture">
+    				
+    				<p>
+    					Click the "Page Settings" link from the dropdown menu which will open the page settings window.
+    				</p>
+    				
+    				<img src="img/pic12.png" alt="SiteBuilder picture">
+    				
+    				<p>
+    					Within the page settings window, you can configure the page title, meta description, meta keywords and add additional code to be included in the <b>HEAD</b> section of the markup when either exporting or publishing your page or site.
+    				</p>
+    				    			
+    			</div><!-- /#pagesettings -->
+    			
+    			<div class="section" id="sitesettings">
+    			
+    				<h3>1.13 Site Settings</h3>
+    				
+    				<p>
+    					Next to settings for individual pages, you can also configure certain settings for an entire site. To configure these settings, locate the grey button towards the right edge of your screen labeled "Settings" and click it to display a dropdown menu:
+    				</p>
+    				
+    				<img src="img/pic13.png" alt="SiteBuilder picture">
+    				
+    				<p>
+    					Click the "Site Settings" link to bring up the site settings window. Besides the Site Name, you'll find a panel containing FTP settings. These settings are required if you want to publish your site using FTP to a live webserver. The first item, labeled "Public URL" is not required to publish over FTP (this is only used to display the external link). All other fields are required to use FTP publishing.
+    				</p>
+    				
+    				<p>
+    					<b>Using the FTP browser</b><br>
+    					If you're not sure what remote path to use, you can use the built-in FTP browser. To use this, make sure you have entered the correct server, username, password and port number (if you're not sure about the port number, just leave it at 21). Next, click the blue button labeled "Browser Server". This will bring up a small panel showing you the files and folders located on your server.
+    				</p>
+    				
+    				<img src="img/pic14.png" alt="SiteBuilder picture">
+    				
+    				<p>
+    					You can use the FTP browser to locate the folder in which you want your site to be published. Once done, click the green button labeled "Save Settings" to save your details. You will get a final confirmation letting you know if all is ok. Once you see this confirmation, you can now publish your site!
+    				</p>
+    				    			
+    			</div><!-- /#sitesettings -->
+    			
+    			<div class="section" id="exporting">
+    			
+    				<h3>1.14 Exporting Your Site</h3>
+    				
+    				<p>
+    					<span class="logo"><b class="text-primary">SITE</b>BUILDER <i>Lite</i></span>&nbsp;&nbsp; allows users to export their sites at any given time. When you're ready to export your site, simply click the blue button labeled "Export".
+    				</p>
+    				
+    				<img src="img/pic15.png" alt="SiteBuilder picture">
+    				
+    				<p>
+    					Clicking the blue export button will bring up a modal window. Here, before you export your site, you can choose an alternative Document Type (by default it's set to HTML5 which is the recommended setting).
+    				</p>
+    				
+    				<p>
+    					Click the "Export Now" button to download a ZIP archive of your entire site, including all CSS files, Javascript files and images.
+    				</p>
+    				    			
+    			</div><!-- /#exporting -->
+    			
+    			<div class="section" id="publishing">
+    			
+    				<h3>1.15 Publishing Your Site</h3>
+    				
+    				<p>
+    					Instead of exporting your site, you can also choose to publish it to a live webserver using FTP. Please note that this function will only work if you have entered correct FTP settings. If you haven't entered FTP connection details yet or if you have entered incorrect FTP connection details, you'll see a notification like this:
+    				</p>
+    				
+    				<img src="img/pic16.png" alt="SiteBuilder picture">
+    				
+    				<p>
+    					Assuming you have provided correct FTP connection details, you can publish your site by clicking the dark grey button labeled "Export". If you have unsaved changes, you will be asked to save these changes first after which you can proceed to publishing your site.
+    				</p>
+    				
+    				<p>
+    					The "Publish" button will bring up the publish window. Here, you can choose which assets and/or pages to publish. When you're publishing your site for the first time, you will want to choose ALL assets and ALL pages. After having published your site for the first time, you want to only publish those assets and pages which have been changed, as this will speed up the publication process significantly. 
+    				</p>
+    				
+    				<img src="img/pic17.png" alt="SiteBuilder picture">
+    				    			
+    			</div><!-- /#publishing -->
+				
+				<div class="section" id="revisions">
+					
+					<h3>1.16 Revisions</h3>
+					
+					<p>
+						<b>Introduced with version 1.4.0</b>
+					</p>
+					
+					<p>
+						Each time a page is stored, a copy of the previous state of that page is maintained as well (this applies both to pages saved automatically as well as to pages saved manually). For each page, you can access the existing revisions through the "Older revisions" drop down. For each revision, three are three buttons available (right next the revision date): 
+					</p>
+					
+					<ul>
+						<li>The first button allows you to the preview the revision by opening it into a new browser window.</li>
+						<li>The second button allows you to restore the revision, by replacing the current page with that revision. Before the current page is replaced with the revision, an additoinal revision is created so you can always revert back.</li>
+						<li>The third button allows you to remove a revision.</li>
+					</ul>
+					
+				</div><!-- /#revisions -->
+				
+				<div class="section" id="customcss">
+					
+					<h3>1.17 Custom CSS</h3>
+					
+					<p>
+						<b>Introduced with version 1.4.0</b>
+					</p>
+					
+					<p>
+						<span class="logo"><b class="text-primary">SITE</b>BUILDER <i>Lite</i></span>&nbsp;&nbsp; allows you to provide custom CSS to modify a single page or an entire site. 	
+					</p>
+					
+					<p>
+						To apply custom CSS for an individual page, use the "Page CSS" field under "Page Settings".
+					</p>
+					
+					<p>
+						To apply custom CSS to the entire site, use the "Global CSS" field under "Site Settings".
+					</p>
+					
+					<p>
+						When supplying custom CSS, please do not include the <b>style</b> tags, as these are added by the application automatically.
+					</p>
+					
+				</div><!-- /#customcss -->
+    			
+    			<div class="section" id="adminusers">
+    			
+    				<h3>1.18 Admin Users</h3>
+    				
+    				<p>
+    					Users with <b>Administration</b> rights are allowed to add and remove users accounts. These users can access the User panel from the top menu.
+    				</p>
+    				
+    				<img src="img/pic18.png" alt="SiteBuilder picture">
+    				
+    				<p>
+    					Here you'll find all the current users of the application. You can also view the sites belonging to each user by clicking the "Sites" tab for a specific user. In addition you can create new user accounts and edit existing accounts.
+    				</p>
+					
+					<h4>User registrations</h4>
+					
+					<p>
+						As of version 1.25, users can now sign up for an account on their own. By default, new user accounts will be disabled and need to be enabled by an admin user through the "Users" panel. Alternatively, new user accounts can be active by default. To achieve this, edit "/application/config/ion_auth.php" and set the config variable <b>manual_activation</b> to FALSE rather then TRUE. Once this is done, new accounts are active instantly and users can access the application right away after creating a new account.
+					</p>
+    				    			
+    			</div><!-- /#adminusers -->
+    			
+    			<div class="section" id="adminsettings">
+    			
+    				<h3>1.19 Admin Settings</h3>
+    				
+    				<p>
+    					Users with <b>Administration</b> rights will have access to the Application Settings from the top menu. These settings control how the application behaves. More details about the Settings can be found in the <a href="#settingspage">Tech Manuel section</a>.
+    				</p>
+    				
+    				
+    			</div><!-- /#adminsettings -->
+				
+    			<div class="section" id="admintemplates">
+    			
+    				<h3>1.20 Admin templates</h3>
+    				
+    				<p>
+    					As of version 1.3, <span class="logo"><b class="text-primary">SITE</b>BUILDER <i>Lite</i></span>&nbsp;&nbsp; comes with templates. This feature allows administrators to pre-build pages which can be used by regular users. An admin user can build a page as he would with any other page, but instead of saving it as a regular site, he or she can choose to save the page as a template. Doing so, will make this template available for all regular users using the application. It's currently not possible to restrict access for certain users or to certain templates.
+    				</p>
+					
+					<img src="img/pic32.png" alt="SiteBuilder picture">
+					
+					<p>
+    					To use a template, the user simply drags and drops a template onto the canvas, as it was any other regular block. This will clear the canvas and drop all the blocks contained within the template on the canvas. After this, the user can then continue to work on the site as he or she would do normally.
+					</p>
+					
+					<p>
+						An admin user can edit a template by dragging it onto the canvas, making the desired changes and the save as template. To delete a template, simply click the red DEL button on top of the template you'd like to remove.
+					</p>
+    				
+    			</div><!-- /#admintemplates -->
+    			
+    			<div class="section" id="requirements">
+    			
+    				<h3>2.1 Requirements</h3>
+    				
+    				<p>
+    					<span class="logo"><b class="text-primary">SITE</b>BUILDER <i>Lite</i></span>&nbsp;&nbsp; has the following server requirmenets:
+    				</p>
+    				
+    				<ul>
+    					<li>
+    						A LAMP server (Linux/Unix + Apache + MySQL + PHP)
+    					</li>
+    					<li>
+    						Apache web server with mod_rewrite enabled
+    					</li>
+    					<li>
+    						PHP 5.1.6 or newer
+    					</li>
+    					<li>
+    						PHP MySQLi extension (regular MySQL might work but is not tested)
+    					</li>
+    				</ul>
+    				    			
+    			</div><!-- /#requirements -->
+    			
+    			<div class="section" id="installation">
+    			
+    				<h3>2.2 Installation</h3>
+    				
+    				<p>
+    					<span class="logo"><b class="text-primary">SITE</b>BUILDER <i>Lite</i></span>&nbsp;&nbsp; comes with an easy installation script, saving you from the trouble of having to everything manually.
+    				</p>
+    				
+    				<p>
+    					After downloading your copy from CodeCanyon, you'll need to start by unpacking the ZIP file on your computer. Next, upload the everything inside the <b>SITEBUILDER</b> to your webserver. Once done, open your browser and navigate to the <b>/install/</b> folder (for example, if you have uploaded the application to http://mydomain.com, you would need to open http://mydomain.com/install/ in your browser). This will bring up the installation script shown below:
+    				</p>
+    				
+    				<img src="img/pic19.png" alt="SiteBuilder picture">
+    				
+    				<p>
+    					Here you'll need to fill in your MySQL database connection details and the email address and password you want to assign to the first <b>admin</b> account in your application (you will login with these details once the installation has been completed).
+    				</p>
+    				
+    				<p>
+    					<b>Things to check after installation</b><br>
+    					The first thing you should check are a couple of folder permissions. You'll need to make sure the following folders are writable by your webserver:
+    				</p>
+    				<ul>
+    					<li>
+    						/elements/images/uploads
+    					</li>
+    					<li>
+    						/tmp
+    					</li>
+    				</ul>
+    				
+    				<p>
+    					The next thing you should verify is that there is a file named "<b>.htaccess</b>" located in your application's root folder. Since this file is hidden, you might need to force your file viewer to show hidden files.
+    				</p>
+    				    			
+    			</div><!-- /#installation -->
+    			
+    			<div class="section" id="upgrading">
+    			
+    				<p>
+    					Follow the instructions below when upgrading your script. Unless specified otherwise, copy all files and folders within mentioned folders.
+    				</p>
+    			
+    				<p>
+    					<b>v1.0 to v.1.0.1</b><br>
+    					Replace the following files and folders:
+    				</p>
+    				
+    				<ul>
+    					<li>
+    						/application/views/sites/create.php
+    					</li>
+    				</ul>
+    				
+    				<p>
+    					<b>v1.0.1 to v.1.1</b><br>
+    					Replace the following files and folders:
+    				</p>
+    				
+    				<ul>
+    					<li>
+    						/application (everything included in this folder <b>except the "config" folder</b>)
+    					</li>
+    					<li>
+    						/css
+    					</li>
+    					<li>
+    						/elements (make sure you keep a copy of elements you've added yourself)
+    					</li>
+    					<li>
+    						/js (be sure to keep a backup of your configuration arrays stored in this file <b>/js/builder.js</b>)
+    					</li>
+    				</ul>
+    				
+    				<p>
+    					<b>v1.1 to v.1.1.1</b><br>
+    					Replace the following files and folders:
+    				</p>
+    				
+    				<ul>
+    					<li>
+    						/js/builder.js (be sure to keep a backup of your configuration arrays stored in this this)
+    					</li>
+    				</ul>
+    				
+    				<p>
+    					<b>v1.1.1 to v.1.1.5</b><br>
+    					Replace the following files and folders:
+    				</p>
+    				
+    				<ul>
+    					<li>
+    						/application (everything included in this folder <b>except the "config" folder</b>)
+    					</li>
+    					<li>
+    						/css
+    					</li>
+    					<li>
+    						/elements (make sure you keep a copy of elements you've added yourself)
+    					</li>
+    					<li>
+    						/js (be sure to keep a backup of your configuration arrays stored in this file <b>/js/builder.js</b>)
+    					</li>
+    				</ul>
+    				
+    				<p>
+    					<b>v.1.1.5 to v1.1.6</b><br>
+    					Replace the following files and folders:
+    				</p>
+    				
+    				<ul>
+    					<li>
+    						/application/views/sites/create.php
+    					</li>
+    					<li>
+    						/css
+    					</li>
+    					<li>
+    						/elements (make sure you keep a copy of elements you've added yourself)
+    					</li>
+    					<li>
+    						/js (be sure to keep a backup of your configuration arrays stored in this file <b>/js/builder.js</b>)
+    					</li>
+    				</ul>
+    				
+    				<p>
+    					<b>v1.1.6 to v1.1.7</b><br>
+    					Replace the following files and folders:
+    				</p>
+    				
+    				<ul>
+    					<li>
+    						Add /js/src-min-noconflict/*
+    					</li>
+    					<li>
+    						Add /js/redactor/table.js
+    					</li>
+    					<li>
+    						Replace /js/builder.js
+    					</li>
+    					<li>
+    						Relpace /application/views/sites/create.php
+    					</li>
+    					<li>
+    						Replace /css/builder.css
+    					</li>
+    					<li>
+    						Replace /css/style.css
+    					</li>
+    					<li>
+    						Replace everything included in /elements/*
+    					</li>
+    					<li>
+    						Replace /elements.json
+    					</li>
+    					<li>
+    						Replace everything included in /application/controllers/*
+    					</li>
+    					<li>
+    						Replace everything included in /application/models/*
+    					</li>
+    				</ul>
+                    
+                    <p>
+                        <b>v1.1.7 to v 1.1.8</b><br>
+                        Replace the following files and folders:
+                    </p>
+                    
+                    <ul>
+                        <li>/application/controllers/* (replace all files in this folder)</li>
+                    </ul>
+					
+					<p>
+						<b>v1.1.8 to v1.1.9</b><br>
+						Replace the following files and folders:
+					</p>
+					
+                    <ul>
+                        <li>/application/controllers/sites.php</li>
+                    </ul>
+					
+					<p>
+						<b>v1.1.9 to v1.2</b><br>
+						Replace the following files and folders:
+					</p>
+					
+					<ul>
+						<li>
+							All block files located in /elements
+						</li>
+						<li>
+							/elements/css/style-portfolio.css (replace)
+						</li>
+						<li>
+							/elements/css/style-team.css (replace)
+						</li>
+						<li>
+							/elements/skeleton.html (replace)
+						</li>
+						<li>
+							/elements/js/over.js (add)
+						</li>
+						<li>
+							/application/views/sites/sites.php (replace)
+						</li>
+						<li>
+							/application/views/sites/create.php (replace)
+						</li>
+						<li>
+							/js/builder.js (replace)
+						</li>
+						<li>
+							/application/language/english/builderlite_lang.php
+						</li>
+					</ul>
+					
+					<p>
+						<b>v1.2 to v1.25</b><br>
+					</p>
+					
+					<ul>
+						<li>
+							/application/config/ion_auth.php (replace)
+						</li>
+						<li>
+							/applications/language/english/ (replace all files in this folder)
+						</li>
+						<li>
+							/application/controllers/ (replace all files in this folder)
+						</li>
+						<li>
+							/application/views/ (replace all files in this folder)
+						</li>
+						<li>
+							/application/models/ (replace all files in this folder)
+						</li>
+						<li>
+							/application/libraries/ (replace all files in this folder)
+						</li>
+						<li>
+							/css (replace all files in this folder)
+						</li>
+						<li>
+							/js/builder.js (be sure to keep a backup of your configuration arrays stored in this file)
+						</li>
+						<li>
+							/system/helpers/captcha_helper.php (replace)
+						</li>
+					</ul>
+					
+					<p>
+						<b>v.125 to v1.3</b><br>
+					</p>
+					
+					<ul>
+						<li>
+							Execute the following MySQL statements to update your database:<br>
+							- <code>ALTER TABLE `pages` ADD `pages_preview` TEXT NOT NULL AFTER `pages_header_includes`;</code><br>
+							- <code>ALTER TABLE `pages` ADD `pages_template` INT(1) NOT NULL DEFAULT '0';</code><br>
+							- <code>ALTER TABLE `frames` ADD `frames_sandbox` INT(1) NOT NULL DEFAULT '0' AFTER frames_original_url;</code><br>
+							- <code>ALTER TABLE `frames` ADD `frames_loaderfunction` VARCHAR(255) NOT NULL AFTER frames_original_url;</code>
+						</li>
+						<li>
+							/application/controllers/ (replace everything in folder)
+						</li>
+						<li>
+							/application/language/english/builderlite_lang.php (update file)
+						</li>
+						<li>
+							/application/libraries/simple_html_dom.php (add file)
+						</li>
+						<li>
+							/application/models/ (replace everything in folder)
+						</li>
+						<li>
+							/application/views/ (replace everything in folder)
+						</li>
+						<li>
+							/css/ (replace everything in folder)
+						</li>
+						<li>
+							/images/loading.gif (add file)
+						</li>
+						<li>
+							/js/builder.js (replace file, make sure you copy your settings!)
+						</li>
+						<li>
+							/js/redactor/ (replace everything in folder)
+						</li>
+						<li>
+							/.htaccess (file has been updated)
+						</li>
+					</ul>
+					
+					<p>
+						<b>v.1.* to 1.4.0</b>
+					</p>
+					
+					<p>
+						<span class="logo"><b class="text-primary">SITE</b>BUILDER <i>Lite</i></span>&nbsp;&nbsp; v1.4.0 has seen a complete rewrite of the builder interface as well as major changed to the back-end code as well. Therefor, we suggest to do a complete re-install when switching to v1.4.0.
+					</p>
+					
+					<p>
+						The syntax of the <b>elements.json</b> file has slightly changed. You're able to use your orignal <b>elements.json</b> file, but you'll need to make some small changes to it (you'll need to remove the variable declaration from the beginning of the file, please use the v1.4.0 elements.json as reference).
+					</p>
+					
+					<p>
+						The Javascript configuration is now done through a separate file located at <b>/js/sitebuilder/config.js</b>. To keep using your origial settings, you can copy the orignal <b>editableItems</b> and <b>editableItemOptions</b> arrays.
+					</p>
+					
+					<p>
+						All the CSS and Javascript used by the blocks is now minified and concatenated for faster load times. The CSS used by the application is concatenated and minified as well. When making changes to the application CSS, you'll need to run Grunt (Gruntfile.js is included in the root folder) to make sure the changes are reflected in the used CSS. 
+					</p>
+					
+					<p>
+						<b>Migrations</b><br>
+						To make sure your database is completely up to date, as off v1.4.0 we're inlcuding CI Migrations to easily update your database. To perform the migration, follow the folllowing steps:
+					</p>
+					
+					<ol>
+						<li>
+							Edit <b>/application/config/migration.php</b> and set "migration_enabled" to TRUE.
+						</li>
+						<li>
+							Point your browser to "http://yourdomain.com/index.php/mirgate" where you obviously replace "yourdomain.com" with the domain to your copy of the application. This will run the migration and automatically update your database.
+						</li>
+						<li>
+							Edit <b>/application/config/migration.php</b> and set "migration_enabled" to FALSE.
+						</li>
+					</ol>
+    				    			
+    			</div><!-- /#installation -->
+    			
+    			<div class="section" id="prettyurls">
+    			
+    				<h3>2.3 Pretty URL's</h3>
+    				
+    				<p>
+    					By default, <span class="logo"><b class="text-primary">SITE</b>BUILDER <i>Lite</i></span>&nbsp;&nbsp; will keep "index.php" as part of the application URLs. You can remove this, by editing the application settings through the Settings panel (please note that only users with <b>Adminisrtation</b> rights have access to the Settings panel).
+    				</p>
+    				
+    				<p>
+    					On the Settings panel, locate the field labeled "index_page" and remove the "index.php" value (thus making the field empty).
+    				</p>
+    				
+    				<img src="img/pic20.png" alt="SiteBuilder picture">
+    				
+    				<p>
+    					In addition to changing the "index_page" setting, you will also need to modify the <b>.htaccess</b> file (located in the root folder of the application). You will find four lines commented out (having '#' at the beginning of each line).
+    				</p>
+    				
+    				<img src="img/pic21.png" alt="SiteBuilder picture">
+    				
+    				<p>
+    					Change to:
+    				</p>
+    				
+    				<img src="img/pic22.png" alt="SiteBuilder picture">
+    				
+    				<p>
+    					After completing the two steps above, your application will now use pretty URLs and no longer display "index.php" as part of the URL.
+    				</p>
+    				
+    			</div><!-- /#prettyurls -->
+    			
+    			<div class="section" id="settingspage">
+    			
+    				<h3>2.4 Settings Page</h3>
+    				
+    				<p>
+    					Users with administration permissions have access to the Settings panel through which a number of settings can be configured. Below we'll briefly describe the available settings. Please note that these descriptions are also available inside the Settings panel (when clicking on a setting field, a message will appear in the right column providing this information). 
+    				</p>
+    				
+    				<p>
+    					<b>Please be careful when making changes on this page; if you don't fully understand a configuration item, please do not make any changes to it!</b>
+    				</p>
+    				
+    				<ul>
+    					<li>
+    						<b>elements_dir</b><br>
+    						<p>
+	    						The directory where all your element HTML files are stored. This value is relative to the directory in which you installed the application. Do not add a trailing "/"
+							</p>
+    					</li>
+    					<li>
+    						<b>images_dir</b><br>
+    						<p>
+	    						This is the main directory for the images used by your elements. The images located in this directory belong to the administrator and can not be deleted by regular users. This directory needs to have <b>full read and write permissions!</b>
+	    					</p>
+    					</li>
+    					<li>
+    						<b>images_uploadDir</b><br>
+    						<p>
+	    						This directory is used to store images uploaded by regular users. Each user will have his/her own directory within this directory. This directory needs to have <b>full read and write permissions!</b>.
+	    					</p>
+    					</li>
+    					<li>
+    						<b>upload_allowed_types</b><br>
+    						<p>
+	    						The types of images users are allowed to upload, separated by "|".
+	    					</p>
+    					</li>
+    					<li>
+    						<b>upload_max_size</b><br>
+    						<p>
+	    						The maximum allowed filesize for images uploaded by users. This number is represents the number of kilobytes. Please note that this number of overruled by possible server settings.
+	    					</p>    					
+	    				</li>
+	    				<li>
+    						<b>upload_max_width</b><br>
+    						<p>
+	    						The maximum allowed width for images uploaded by users.
+	    					</p>  					
+	    				</li>
+	    				<li>
+    						<b>upload_max_height</b><br>
+    						<p>
+	    						The maximum allowed height for images uploaded by users.
+	    					</p>				
+	    				</li>
+	    				<li>
+    						<b>images_allowedExtensions</b><br>
+    						<p>
+	    						These allowed extensions are used when displayed the image library to the user, only these file types will be visible. 
+	    					</p>				
+	    				</li>
+	    				<li>
+    						<b>export_pathToAssets</b><br>
+    						<p>
+	    						The collection of asset paths included in the export function. These paths are relative to the folder in which the application was installed and should have NO trailing "/". The paths are separated by "|".
+	    					</p>				
+	    				</li>
+	    				<li>
+    						<b>export_fileName</b><br>
+    						<p>
+	    						The name of the ZIP archive file downloaded when exporting a site. We recommend using the ".zip" file extension (others might work, but have not been tested).
+	    					</p>				
+	    				</li>
+	    				<li>
+    						<b>index_page</b><br>
+    						<p>
+	    						Set to "index.php" by default. If you'd like to use pretty URLs (without "index.php" in them) leave this setting empty. If you want to use pretty URLs, don't forget to update your ".htaccess" file as well (more information can be found in the provided documentation).
+	    					</p>				
+	    				</li>
+	    				<li>
+    						<b>lnguage</b><br>
+    						<p>
+	    						"english" by default. If you're changing this to anything else, please be sure to have all required language files translated and located in the correct folder inside "/application/languages/yourlanguage".
+	    					</p>				
+	    				</li>
+    				</ul>
+    				
+    			</div><!-- /#settingspage -->
+    			
+    			<div class="section" id="translation">
+    			
+    				<h3>2.5 Translation</h3>
+    				
+    				<p>
+    					<span class="logo"><b class="text-primary">SITE</b>BUILDER <i>Lite</i></span>&nbsp;&nbsp; is translation ready. What this means is that all text used throughout the application is contained in language files. Language files are located in <b>/application/language/</b> and the default language is "English" (language files located in /application/language/english/).
+    				</p>
+    				
+    				<p>
+    					If you want to translate the application, you'll first need to create the required language files. You can do this by simply copying the English language files and place them in the proper directory. For example, if you're translating the application into Russian, you'll need to copy the language files to <b>/application/language/russian/</b>. Many language folders are already there, if yours is not there, you can just add it.
+    				</p>
+    				
+    				<p>
+    					After creating the language files, you'll need to change the application's language through the Settings panel.
+    				</p>
+    				
+    				<img src="img/pic23.png" alt="SiteBuilder picture">
+    				
+    			</div><!-- /#translation -->
+    			
+    			<div class="section" id="ce_intro">
+    			
+    				<h3>3.1 Custom Elements Introduction</h3>
+    				
+    				<p>
+    					<span class="logo"><b class="text-primary">SITE</b>BUILDER <i>Lite</i></span>&nbsp;&nbsp; allows you to easily extend the application by adding your own custom block! All that is required is some basic (basic, really) knowledge about HTML and Javascript. You can decide to either modify the existing blocks, add your own blocks or use nothing but your own blocks; it's all possible! In this section we'll explain how the blocks fit into the application and how to you can add your own!
+    				</p>
+    				
+    				<p>
+    					If you're feeling lost while reading this, please feel free to create a ticket through our <a href="http://support.chillyorange.com" target="_blank">support portal</a>. Once created, one of our support staff will do his or her best to guide you and help you get on your feet.
+    				</p>
+    				   				 				    				
+    			</div><!-- /#ce_intro -->
+    			
+    			<div class="section" id="ce_blockfiles">
+    			
+    				<h3>3.2 Block Files</h3>
+    				
+    				<p>
+    					The blocks used by the application are all placed within their own HTML file. This means that header 1, header 2, content section 1, etc all have their own HTML file. By default, these files are all located in <b>/elements</b>.
+    				</p>
+    				
+    				<p>
+    					Below you'll see the contents of a random block file (a contact form block bundled with the application). Please note that some of the deeper HTML has been collapsed to keep the file shorter and clearer.
+    				</p>
+    				
+    				<img src="img/pic24.png" alt="SiteBuilder picture">
+    				
+    				<p>
+    					In the <b>HEAD</b> section is used to include the required CSS files as well as some meta tags and other regular stuff you'll find in HTML document headers.
+    				</p>
+    				
+    				<p>
+    					The first child HTML element found in the <b>BODY</b> is an important element. The is the container element for your blocks and should be included in EVERY block file. The default ID for this element is "page", which you can usually leave as is. However if you want to change the ID of this element, you'll need to change this inside <b>/application/js/builder.js</b> as well. After you've changed the setting builder.js, you can use this ID for the container element in all your block files.
+    				</p>
+
+					<img src="img/pic25.png" alt="SiteBuilder picture">
+										
+					<p>
+						Inside the main container element, you can place all the markup for this particular block. And towards the bottom, before the closing <b>BODY</b> tag, you can include the required Javascript files.
+					</p>
+					
+					<p>
+						To keep everything nice and neat, we suggest keeping all your CSS files, Javascript files and images within child folders of the <b>/elements/</b> folder.
+					</p>
+					
+					<h3>Block files and SiteBuilder specific markup</h3>
+					
+					<p>
+						<b>"editContent" class</b><br>
+						To enable elements and sections as "content editable" (meaning users can edit the written content within these sections), you would need to add the class name "<b>editContent</b>". This class name can either be added to content elements (such H1, H2, H3, P, SPAN, A, etc) directly OR to elements containing multiple content elements (for example, a DIV containing several H1, H2 and P tags).
+					</p>
+					
+					<p>
+						<b>Youtube and Vimeo videos</b><br>
+						To be able to edit Youtube and Vimeo videos, you will need to apply some specific markup. For starters, you will need to wrap the IFRAME in a DIV with class name "<b>videoWrapper</b>". Second, the containing DIV will need to contain another empty DIV with class name "<b>frameCover</b>".
+					</p>
+					
+					<p>
+						<b>Table wrapper</b><br>
+						To make a table editable, you will need to wrap the entire table in a DIV with class name "<b>tableWrapper</b>".
+					</p>
+					   				 				    				
+    			</div><!-- /#ce_blockfiles -->
+    			
+    			<div class="section" id="ce_elementsjson">
+    			
+    				<h3>3.3 elements.json</h3>
+    				
+    				<p>
+    					Once you have your block files nice and ready, the next step involves editing the file <b>/elements.json</b>. This JSON file contains links to all your block files as well as some additional data. As the file extension suggests, the data format is JSON. If you're not familiar with JSON, <a href="http://json.org" target="_blank">please have a quick look at this website</a>. Even without much understanding of the JSON format, editing the elements.json file is still pretty easy, just have a look at how the file is structured and you should be ok.
+    				</p>
+    				
+    				<p>
+    					As you can see, the blocks in the file are organised by category. This same structure is used to organise your blocks in the left sidebar in the drag and drop builder. Furthermore, for each block the file contains the <b>URL</b>, the <b>height</b> and the <b>thumbnail link</b>. The thumbnail link is optional, if left out, a iframe thumbnail will be used (please keep in mind that when you leave the thumbnail link out for many blocks, the load speed of the application can get a lot slower).
+    				</p>
+    				
+    									   				 				    				
+    			</div><!-- /#ce_elementsjson -->
+    			
+    			<div class="section" id="ce_skeletonhtml">
+    			
+    				<h3>3.4 skeleton.html</h3>
+    				
+    				<p>
+    					Once you have your block files ready and have successfully configured your /elements.json file, it's now time to configure the next piece of the puzzle: the skeleton file! The skeleton file is located at <b>/elements/skeleton.html</b> and serves as a skeleton or shell in/around which your pages will be build. When using the <a href="#export">export</a> or <a href="#publishing">publishing</a> functions, the pages you have build on the canvas are placed within the skeleton file before being zipped or published on your webserver.
+    				</p>
+    				
+    				<p>
+    					Since the skeleton.html file is used to create all your pages, it has certain requirements:
+    				</p>
+    				
+    				<img src="img/pic26.png" alt="SiteBuilder picture">
+    				
+    				<p>
+    					In the <b>HEAD</b> section, you will need to include ALL the CSS files used by ANY of your blocks. Since any of your blocks can end up in the skeleton file, the CSS files need to be there as well.
+    				</p>
+    				
+    				<p>
+    					Next, you will need to include the container element as the first child element of the <b>BODY</b> section. This element needs to be EMPTY (like in the screenshot above).
+    				</p>
+    				
+    				<p>
+    					Finally, before the closing <b>BODY</b> tag, you'll need to include ALL of your Javascript files used by ANY of your blocks. Same story as with the CSS, any of your blocks can end up in this skeleton file, so all Javascript files need to referenced from this file.
+    				</p>
+    									   				 				    				
+    			</div><!-- /#ce_skeletonhtml -->
+    			
+    			<div class="section" id="ce_editableitems">
+    			
+    				<h3>3.5 Editable Items</h3>
+    				
+    				<p>
+    					It's up to the applications administrators to define which HTML elements are editable and for each for each of those elements, which CSS properties can be edited by the end-users.
+    				</p>
+    				
+    				<p>
+    					This configuration takes place in the file <b>/js/builder.js</b>.
+    				</p>
+    				
+    				<img src="img/pic27.png" alt="SiteBuilder picture">
+    				
+    				<p>
+    					As you can see from the screenshot above, the configuration takes the form of a Javascript array named "<b>editableItems</b>". Each key in this array represents a <a href="http://api.jquery.com/category/selectors/" target="_blank">jQuery selector</a> and the value belonging to that key holds another array containing the editable properties for that jQuery selector.
+    				</p>
+    				
+    				<p>
+    					The second array that's important here is called "<b>editableItemOptions</b>". In this array, you can specify options the user can choose from when editing that particular property. If none are specified, the user will see a regular text field in which they can enter any value.
+    				</p>
+    				
+    				<p>
+    					<b>Please note that any properties in the <b>editableItems</b> array containing the word "color" will automatically launch a color picker when the user tries to the change that property.</b>
+    				</p>
+    				
+    				<p>
+    					<b>Editable text</b><br>
+    					With version 1.1, an improved way of editing written text was introduced. The new method is using a (rich) text editor rather then relying on "designMode". The new method requires editable sections to be defined in "/js/builder.js" using the "editableContent" array. This array should hold a selection of proper jQuery selectors, pointing to elements which text contents are editable. You can either enter individual elements, or grouped together. When using grouped elements, it's advised to wrap those elements in a containing <b>DIV</b> and place a jQuery selector for this <b>DIV</b> in the "editableContent" array.
+    				</p>
+    									   				 				    				
+    			</div><!-- /#ce_editableitems -->
+    			
+    			<div class="section" id="ce_exportassets">
+    			
+    				<h3>3.6 Export Assets</h3>
+    				
+    				<p>
+    					The final step of setting up your own blocks is configuring the assets included in your site export. This setting is located within the Settings panel (accessible only by users with administration rights).
+    				</p>
+    				
+    				<img src="img/pic28.png" alt="SiteBuilder picture">
+    				
+    				<p>
+    					As you can see, this setting contains the paths to all assets to be included in the export, separated by "|"'s.
+    				</p>
+    									   				 				    				
+    			</div><!-- /#ce_exportassets -->
+				
+				<div class="section" id="sentapi">
+					
+					<h3>Sent API / dealing with forms</h3>
+					
+					<p>
+						<b>Introduced with version 1.4.0</b>
+					</p>
+					
+					<p>
+						<span class="logo"><b class="text-primary">SITE</b>BUILDER <i>Lite</i></span>&nbsp;&nbsp; nows comes bundled with the handy <a href="http://sentapi.com">Sent API</a> (also separately available on <a href="http://codecanyon.net/item/self-hosted-form-submit-api/7356482" target="_blank">CodeCanyon</a>). You will find a copy of the Sent API after unzipping the package downloaded from CodeCanyon. Sent API comes with it's own documentation.
+					</p>
+					
+				</div><!-- /# -->
+    		
+    		</div><!-- /.col -->
+    	
+    	</div><!-- /.row -->
+    
+    </div><!-- /.container -->
+    
+    <!-- /.end modals -->
+
+    <!-- jQuery (necessary for Flat UI's JavaScript plugins) -->
+    <script src="js/vendor/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/flat-ui-pro.min.js"></script>
+    <script>
+    $(function(){
+    
+    	$('#nav').width( $('#nav').width() )
+	    
+	    $('#nav a').click(function(){
+		    
+		    $(this).closest('#nav').find('li').removeClass('active');
+		    
+		    $(this).parent().addClass('active');
+		    
+	    })
+	    
+    })
+    </script>
+  </body>
+</html>
