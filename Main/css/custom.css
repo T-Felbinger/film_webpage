@@ -1,0 +1,22 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    padding-top: 30px;
+}
+/*#cover {
+background-image: url("img/TimFelbinger_1.jpg");
+background-size: cover;
+}*/
+
+#LogoText {
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size:
+}
+
+h3.link{
+    text-decoration: none;
+}
+#main-top-menu{
+    background-color: white;
+    border-bottom-color: #ececec;
+}
